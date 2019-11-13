@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "title": "asd",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "title": "sdjkfl",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "asd",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "dsad",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "fgd",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "nem btuy",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "title": "Jude supot",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "supot",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "title": "Jude and Noel supot together",
+      "completed": false,
+      "id": 9
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -12,14 +12,17 @@ export default function PostList() {
 
 	return (
 		<div>
-			<h5>Post list</h5>
-			<ul style={{ maxHeight: 600, overflow: 'auto', width: 500 }}>
-				{getAllPost.map((post) => (
-					<Li key={post.id}>
-						{post.title} - <small> {post.completed ? 'Complete' : 'Incomplete'}</small>
-					</Li>
-				))}
-			</ul>
+			<h3 style={{ textAlign: 'center' }}>News Feed</h3>
+			<div style={{ display: 'flex', justifyContent: 'center' }}>
+				<ul>
+					{getAllPost.map((post) => (
+						<Li key={post.id}>
+							<b>{post.title} </b>- <small> {post.completed ? 'Complete' : 'Incomplete'}</small>
+							<p>Lorem sadifopsdfklsdajf sdkfjksldfj sdjfklsda jfklsadj</p>
+						</Li>
+					))}
+				</ul>
+			</div>
 		</div>
 	);
 }
