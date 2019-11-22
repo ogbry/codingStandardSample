@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { TextField, Grid, Paper, Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import { postData } from '../../utils/api';
-export default function SignIn() {
+export default function SignIn(props) {
 	const initialState = {
 		username: '',
 		email: '',
@@ -11,17 +11,22 @@ export default function SignIn() {
 	};
 
 	const [ Input, setInput ] = useState(initialState);
-
+	const [ Loading, setLoading ] = useState(false);
 	function addUser() {
+		setLoading(true);
+
 		postData('/users', { name: 'asdasd' })
 			.then((result) => {
 				console.log(result);
+				setLoading(false);
+				console.log(props);
 			})
 			.catch((error) => {
 				console.log(error);
+				setLoading(false);
 			});
 	}
-	console.log(Input);
+	console.log('Reg', props);
 	return (
 		<React.Fragment>
 			<Paper className="paper">

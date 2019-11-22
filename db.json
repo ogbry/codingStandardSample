@@ -5,6 +5,34 @@
       "password": "admin",
       "email": "jude.agagad@boomsourcing.com",
       "id": 1
+    },
+    {
+      "username": "ddd",
+      "password": "admin",
+      "email": "jude.agagad@boomsourcing.com",
+      "id": 2
+    },
+    {
+      "username": "333",
+      "password": "admin",
+      "email": "jude.agagad@boomsourcing.com",
+      "id": 3
+    },
+    {
+      "name": "asdasd",
+      "id": 4
+    },
+    {
+      "name": "asdasd",
+      "id": 5
+    },
+    {
+      "name": "asdasd",
+      "id": 6
+    },
+    {
+      "name": "asdasd",
+      "id": 7
     }
   ],
   "posts": [

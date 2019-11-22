@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { TextField, Grid, Paper, Button } from '@material-ui/core';
 import { Link } from 'react-router-dom';
-export default function SignIn() {
+export default function SignIn(props) {
 	const initialState = {
 		username: '',
 		password: ''
@@ -13,7 +13,7 @@ export default function SignIn() {
 		alert('Sign in');
 	}
 
-	console.log(Input);
+	console.log(props);
 	return (
 		<React.Fragment>
 			<Paper className="paper">

@@ -1,7 +1,7 @@
 import axios from 'axios';
 let instance = axios.create();
 
-const BASE_URL = process.env.APP_API_BASE_URL || 'http://172.60.61.175:4000';
+const BASE_URL = process.env.APP_API_BASE_URL || 'http://localhost:4000';
 
 instance.defaults.headers.common.Accept = 'application/json';
 instance.defaults.headers.post['Content-Type'] = 'application/json';
