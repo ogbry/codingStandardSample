@@ -35,3 +35,11 @@ code {
 	color: #888 !important;
 	font-weight: 550;
 }
+
+.link {
+	text-decoration: none;
+}
+.paper {
+	padding: 15px;
+	padding-bottom: 25px;
+}

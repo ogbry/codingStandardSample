@@ -1,4 +1,12 @@
 {
+  "users": [
+    {
+      "username": "ddd",
+      "password": "admin",
+      "email": "jude.agagad@boomsourcing.com",
+      "id": 1
+    }
+  ],
   "posts": [
     {
       "title": "asd",

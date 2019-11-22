@@ -1,3 +1,3 @@
 import LandingPage from './LandingPage';
-
-export { LandingPage };
+import MainPage from './MainPage';
+export { LandingPage, MainPage };

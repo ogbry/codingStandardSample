@@ -1,13 +1,8 @@
 import React from 'react';
+import Routes from './Routes';
 
-import { LandingPage } from './layouts';
-import { SignIn } from './components/SignIn';
 function App() {
-	return (
-		<div className="App">
-			<LandingPage component={<SignIn />} />
-		</div>
-	);
+	return <Routes />;
 }
 
 export default App;
